@@ -302,7 +302,7 @@ function custom_search_form_submit() {
 //Change search form text
 
 function custom_search_button_text( $text ) {
-	return ( 'Doorzoek de site');
+	return ( 'Zoek in de site');
 	}
 	add_filter( 'genesis_search_text', 'custom_search_button_text' );
 
