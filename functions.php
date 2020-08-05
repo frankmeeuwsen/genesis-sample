@@ -331,5 +331,5 @@ remove_action( 'genesis_entry_content', 'genesis_do_post_permalink', 14 );
 // Verander de comment tekst
 // add_filter( 'genesis_post_info', 'custom_post_info_filter' );
 function custom_post_info_filter( $post_info ) {
-	return '[post_comments zero="Reacties" one="1 reactie" more="% reacties"]';
+	return '[post_comments zero="Geef een reactie" one="1 reactie" more="% reacties"]';
 }
