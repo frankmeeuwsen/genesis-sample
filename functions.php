@@ -371,18 +371,18 @@ function entry_content( $attributes ) {
 	return $attributes;
 	}
 
-	function entry_author(){
+	function entry_author( $attributes ){
 		$attributes['class'] .= 'p-author h-card'; 
 		return $attributes;
 	 }	
 	
 
-	function comment_content() {
+	function comment_content($attributes) {
 		$attributes['class'] .= 'comment-content p-summary p-name'; 
 		return $attributes;
 	}
 	
-function comment_entry_author() {
+function comment_entry_author($attributes) {
 		$attributes['class'] .= 'comment-author p-author vcard hcard h-card'; 
 		return $attributes;
 	}
