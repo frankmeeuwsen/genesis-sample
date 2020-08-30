@@ -442,9 +442,9 @@ function singular_entry_title_link( $output, $wrap, $title ) {
 	return $output;
 }
 
-add_shortcode( 'dtd_permalink', 'my_permalink' );
+add_shortcode( 'dtd_permalink', 'dtd_permalink' );
 // The Permalink Shortcode
-function my_permalink() {
+function dtd_permalink() {
 ob_start();
     the_permalink();
 return ob_get_clean();
