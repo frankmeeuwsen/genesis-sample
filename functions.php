@@ -346,6 +346,7 @@ function microformats_header() {
 }
 
 add_filter( 'genesis_attr_entry-title', 'entry_title' );
+// add_filter( 'genesis_attr_entry-title-link', 'entry_title_link' );
 add_filter( 'genesis_attr_entry-content', 'entry_content' );
 add_filter( 'genesis_attr_comment-content', 'comment_content' );
 add_filter( 'genesis_attr_comment-author', 'comment_entry_author' );
@@ -364,6 +365,7 @@ function entry_title( $attributes ) {
 $attributes['class'] .= ' p-entry-title p-name';
 return $attributes;
 }
+
 
 function entry_content( $attributes ) {
 	
@@ -442,4 +444,27 @@ function author_archive_description( $attributes ) {
 			);
 		
 			return $output;
+		}
+
+
+		 
+		//* Add permalink to <time class="entry-time">July 9, 2014</time> shortcode
+		add_filter( 'genesis_post_date_shortcode', 'child_customize_post_date_shortcode', 10, 2 );
+		function child_customize_post_date_shortcode( $output, $atts ) {
+		 
+			global $post;
+			$defaults = array(
+				'after'  => '',
+				'before' => '',
+				'format' => get_option( 'date_format' ),
+				'label'  => '',
+			);
+		 
+			$atts = shortcode_atts( $defaults, $atts, 'post_date' );
+				 
+			$display = ( 'relative' === $atts['format'] ) ? genesis_human_time_diff( get_the_time( 'U' ), current_time( 'timestamp' ) ) . ' ' . __( 'ago', 'genesis' ) : get_the_time( $atts['format'] );
+			 
+			$new_output = sprintf( '<time %s>', genesis_attr( 'entry-time' ) ) . '<a rel="bookmark" class="u-url" href="' . get_permalink() . '">' . $display . '</a>' . '</time>';
+			 
+			return $new_output;
 		}
