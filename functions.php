@@ -372,7 +372,7 @@ function entry_content( $attributes ) {
 	}
 
 	function entry_author( $attributes ){
-		$attributes['class'] .= 'p-author h-card'; 
+		$attributes['class'] .= ' p-author h-card'; 
 		return $attributes;
 	 }	
 	
