@@ -361,110 +361,83 @@ add_filter( 'genesis_post_title_output', 'singular_entry_title_link', 10, 3 );
 
 
 function entry_title( $attributes ) {
-	
-$attributes['class'] .= ' p-entry-title p-name';
-return $attributes;
-}
+	$attributes['class'] .= ' p-entry-title p-name';
+	return $attributes;
+	}
 
 
-function entry_content( $attributes ) {
-	
+function entry_content( $attributes ) {	
 	$attributes['class'] .= ' e-entry-content e-content';
 	return $attributes;
 	}
 
-	function entry_author( $attributes ){
-		$attributes['class'] .= ' p-author h-card'; 
-		return $attributes;
-	 }	
-	
+function entry_author( $attributes ){
+	$attributes['class'] .= ' p-author h-card'; 
+	return $attributes;
+	}	
 
-	function comment_content($attributes) {
-		$attributes['class'] .= 'comment-content p-summary p-name'; 
-		return $attributes;
+
+function comment_content($attributes) {
+	$attributes['class'] .= 'comment-content p-summary p-name'; 
+	return $attributes;
 	}
 	
 function comment_entry_author($attributes) {
-		$attributes['class'] .= 'comment-author p-author vcard hcard h-card'; 
-		return $attributes;
+	$attributes['class'] .= 'comment-author p-author vcard hcard h-card'; 
+	return $attributes;
 	}
 function time_stamps( $attributes ) {
 	$attributes['class'] .= ' dt-updated dt-published';
 	return $attributes;
-}	
+	}	
 function author_description( $attributes ) {
-
 	$attributes['class'] .= ' p-note';
 	return $attributes;
 	}
 	
 function author_archive_description( $attributes ) {
+	$attributes['class'] .= ' vcard h-card';
+	return $attributes;
+	}
 
-		$attributes['class'] .= ' vcard h-card';
-		return $attributes;
-		}
-		function post_content( $classes, $class, $post_id ) {
+function post_content( $classes, $class, $post_id ) {
+	$classes[] .= 'h-entry';
+	return $classes;
+}
 
-			$classes[] .= 'h-entry';
+function category_shortcode_class( $output ) {
+	$output = str_replace( '<a ', '<a class="p-category"', $output );
+	return $output;
+	}
 		
-			return $classes;
-		}
-		function category_shortcode_class( $output ) {
-			$output = str_replace( '<a ', '<a class="p-category"', $output );
-			return $output;
-		}
-		
-		function singular_entry_title_link( $output, $wrap, $title ) {
-			if ( ! is_singular() ) {
-				return $output;
-			}
-		
-			$title = genesis_markup(
-				[
-					'open'    => '<a %s>',
-					'close'   => '</a>',
-					'content' => $title,
-					'context' => 'entry-title-link',
-					'atts' => [ 'class' => 'entry-title-link u-url', ],
-					'echo'    => false,
-				]
-			);
-		
-			$output = genesis_markup(
-				[
-					'open'    => "<{$wrap} %s>",
-					'close'   => "</{$wrap}>",
-					'content' => $title,
-					'context' => 'entry-title',
-					'params'  => [
-						'wrap' => $wrap,
-					],
-					'echo'    => false,
-				]
-			);
-		
-			return $output;
-		}
+function singular_entry_title_link( $output, $wrap, $title ) {
+	if ( ! is_singular() ) {
+		return $output;
+	}
 
+	$title = genesis_markup(
+		[
+			'open'    => '<a %s>',
+			'close'   => '</a>',
+			'content' => $title,
+			'context' => 'entry-title-link',
+			'atts' => [ 'class' => 'entry-title-link u-url', ],
+			'echo'    => false,
+		]
+	);
 
-		 
-		//* Add permalink to <time class="entry-time">July 9, 2014</time> shortcode
-		add_filter( 'genesis_post_date_shortcode', 'child_customize_post_date_shortcode', 10, 2 );
-		function child_customize_post_date_shortcode( $output, $atts ) {
-		 
-			global $post;
-			$defaults = array(
-				'after'  => '',
-				'before' => '',
-				'format' => get_option( 'date_format' ),
-				'label'  => '',
-			);
-		 
-			$atts = shortcode_atts( $defaults, $atts, 'post_date' );
-				 
-			$display = ( 'relative' === $atts['format'] ) ? genesis_human_time_diff( get_the_time( 'U' ), current_time( 'timestamp' ) ) . ' ' . __( 'ago', 'genesis' ) : get_the_time( $atts['format'] );
-			 
-			$new_output = sprintf( '<time %s>', genesis_attr( 'entry-time' ) ) . '<a rel="bookmark" class="u-url" href="' . get_permalink() . '">' . $display . '</a>' . '</time>';
-			 
-			return $new_output;
-		}
+	$output = genesis_markup(
+		[
+			'open'    => "<{$wrap} %s>",
+			'close'   => "</{$wrap}>",
+			'content' => $title,
+			'context' => 'entry-title',
+			'params'  => [
+				'wrap' => $wrap,
+			],
+			'echo'    => false,
+		]
+	);
+
+	return $output;
+}
