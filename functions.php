@@ -361,8 +361,8 @@ add_filter( 'genesis_post_title_output', 'singular_entry_title_link', 10, 3 );
 
 
 function entry_title( $attributes ) {
-	$attributes['class'] .= ' p-entry-title p-name';
-	return $attributes;
+		$attributes['class'] .= ' p-entry-title p-name';
+		return $attributes;
 	}
 
 
@@ -440,4 +440,12 @@ function singular_entry_title_link( $output, $wrap, $title ) {
 	);
 
 	return $output;
+}
+
+add_shortcode( 'my_permalink', 'my_permalink' );
+// The Permalink Shortcode
+function my_permalink() {
+ob_start();
+    the_permalink();
+return ob_get_clean();
 }
