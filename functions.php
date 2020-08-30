@@ -333,3 +333,113 @@ remove_action( 'genesis_entry_content', 'genesis_do_post_permalink', 14 );
 function custom_post_info_filter( $post_info ) {
 	return '[post_comments zero="Geef een reactie" one="1 reactie" more="% reacties"]';
 }
+
+// Microformats toevoegen
+add_action( 'wp_head', 'microformats_header' );
+// add_action( 'genesis_comments', 'display_webmention_likes', 1 ); 
+
+function microformats_header() {
+	?>
+<link rel="profile" href="http://microformats.org/profile/specs" />
+<link rel="profile" href="http://microformats.org/profile/hatom" />
+<?php
+}
+
+add_filter( 'genesis_attr_entry-title', 'entry_title' );
+add_filter( 'genesis_attr_entry-content', 'entry_content' );
+add_filter( 'genesis_attr_comment-content', 'comment_content' );
+add_filter( 'genesis_attr_comment-author', 'comment_entry_author' );
+add_filter( 'genesis_attr_entry-author', 'entry_author' );
+add_filter( 'genesis_attr_entry-time', 'time_stamps' );
+add_filter( 'genesis_attr_comment-time', 'time_stamps' );
+add_filter( 'author-box', 'author_description' );
+add_filter( 'genesis_attr_author-archive-description', 'author_archive_description' );
+add_filter( 'post_class', 'post_content', 10, 3 );
+add_filter( 'genesis_post_categories_shortcode', 'category_shortcode_class' ); 
+add_filter( 'genesis_post_title_output', 'singular_entry_title_link', 10, 3 );
+
+
+function entry_title( $attributes ) {
+	
+$attributes['class'] .= ' p-entry-title p-name';
+return $attributes;
+}
+
+function entry_content( $attributes ) {
+	
+	$attributes['class'] .= ' e-entry-content e-content';
+	return $attributes;
+	}
+
+	function entry_author(){
+		$attributes['class'] .= 'p-author h-card'; 
+		return $attributes;
+	 }	
+	
+
+	function comment_content() {
+		$attributes['class'] .= 'comment-content p-summary p-name'; 
+		return $attributes;
+	}
+	
+function comment_entry_author() {
+		$attributes['class'] .= 'comment-author p-author vcard hcard h-card'; 
+		return $attributes;
+	}
+function time_stamps( $attributes ) {
+	$attributes['class'] .= ' dt-updated dt-published';
+	return $attributes;
+}	
+function author_description( $attributes ) {
+
+	$attributes['class'] .= ' p-note';
+	return $attributes;
+	}
+	
+function author_archive_description( $attributes ) {
+
+		$attributes['class'] .= ' vcard h-card';
+		return $attributes;
+		}
+		function post_content( $classes, $class, $post_id ) {
+
+			$classes[] .= 'h-entry';
+		
+			return $classes;
+		}
+		function category_shortcode_class( $output ) {
+			$output = str_replace( '<a ', '<a class="p-category"', $output );
+			return $output;
+		}
+		
+		function singular_entry_title_link( $output, $wrap, $title ) {
+			if ( ! is_singular() ) {
+				return $output;
+			}
+		
+			$title = genesis_markup(
+				[
+					'open'    => '<a %s>',
+					'close'   => '</a>',
+					'content' => $title,
+					'context' => 'entry-title-link',
+					'atts' => [ 'class' => 'entry-title-link u-url', ],
+					'echo'    => false,
+				]
+			);
+		
+			$output = genesis_markup(
+				[
+					'open'    => "<{$wrap} %s>",
+					'close'   => "</{$wrap}>",
+					'content' => $title,
+					'context' => 'entry-title',
+					'params'  => [
+						'wrap' => $wrap,
+					],
+					'echo'    => false,
+				]
+			);
+		
+			return $output;
+		}
