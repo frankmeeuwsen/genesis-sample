@@ -4,7 +4,7 @@
  *
  * This file adds functions to the Genesis Sample Theme.
  *
- * @package Genesis Sample
+ * @package Genesis FM Sample
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/
@@ -448,4 +448,13 @@ function dtd_permalink() {
 ob_start();
     the_permalink();
 return ob_get_clean();
+}
+
+add_action ( 'genesis_before_loop', 'themeprefix_remove_post_info' );
+// Remove Post Info, Post Meta from CPT
+function themeprefix_remove_post_info() {
+	if ('custom_post_type_name' == get_post_type()) {//add in your CPT name
+		remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+		remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+	}
 }

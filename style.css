@@ -1823,3 +1823,13 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 mailpoet_form_shortcode br {
     display: none;
 }
+
+.kind-bookmark {
+	background-color: #ccc;
+	padding: 10px;
+}
+
+.kind-note {
+	background-color:#eee;
+	padding: 10px;
+}
