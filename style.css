@@ -1824,7 +1824,7 @@ mailpoet_form_shortcode br {
     display: none;
 }
 
-.kind-bookmark {
+/* .kind-bookmark {
 	background-color: #ccc;
 	padding: 10px;
 }
@@ -1832,4 +1832,4 @@ mailpoet_form_shortcode br {
 .kind-note {
 	background-color:#eee;
 	padding: 10px;
-}
+} */
