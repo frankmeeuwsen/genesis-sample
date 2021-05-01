@@ -1823,3 +1823,70 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 mailpoet_form_shortcode br {
     display: none;
 }
+
+.editor-styles-wrapper .wp-block-quote,
+.editor-styles-wrapper .wp-block-pullquote {
+	margin: auto;
+}
+
+
+.mailerlite-form .mailerlite-form-field .dtd-form-in-post label {
+	color: #fff;
+}
+
+
+/* Element | https://diggingthedigital.com/open-s02e20/?preview_id=15499&preview_nonce=42e350f088&preview=true&_thumbnail_id=15016 */
+
+#mailerlite-form_4>div:nth-child(1)>form:nth-child(1)>div:nth-child(3) {
+	margin: 30px;
+}
+
+#mailerlite-form_4>div:nth-child(1)>form:nth-child(1)>div:nth-child(3)>div:nth-child(3) {
+	padding-bottom: 20px;
+}
+
+
+.wp-block-group.infobox-round.has-background {
+	border-radius: 20px;
+	padding: 20px;
+	margin: 10px;
+}
+
+
+/* front-end.css | https://diggingthedigital.com/wp-content/themes/genesis-sample/lib/gutenberg/front-end.css?ver=2.8.2 */
+
+.entry-content .wp-block-audio figcaption,
+.entry-content .wp-block-embed figcaption,
+.entry-content .wp-block-image figcaption {
+	text-align: center;
+}
+
+.nav-nieuwsbrief {
+	background-color: #b4dfec;
+	border-radius: 12px;
+	color: black;
+}
+
+
+/* Element | https://diggingthedigital.com/?p=16090&preview=true */
+
+#mailerlite-5-field-email {
+	width: 300px;
+}
+
+
+.colorblock-padding {
+	padding: 20px;
+}
+
+/* mailerlite_forms.css | https://diggingthedigital.com/wp-content/plugins/official-mailerlite-sign-up-forms/assets/css/mailerlite_forms.css?ver=1.4.8 */
+
+.mailerlite-form .mailerlite-form-field {
+	text-align: center;
+}
+
+/* Element | https://diggingthedigital.com/?p=16090&preview=true */
+
+#mailerlite-form_5 {
+	text-align: center;
+}

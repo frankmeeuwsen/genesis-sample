@@ -16,7 +16,7 @@ require_once get_template_directory() . '/lib/init.php';
 // Defines the child theme (do not remove).
 define( 'CHILD_THEME_NAME', 'Genesis Sample' );
 define( 'CHILD_THEME_URL', 'https://www.studiopress.com/' );
-define( 'CHILD_THEME_VERSION', '2.8.3' );
+define( 'CHILD_THEME_VERSION', '2.8.4' );
 
 // Sets up the Theme.
 require_once get_stylesheet_directory() . '/lib/theme-defaults.php';
@@ -321,7 +321,7 @@ add_action( 'genesis_header', 'custom_site_image', 5 );
  * @return string 		HTML for site logo/image.
  */
 function custom_site_image() {
- $header_image = get_header_image() ? '<img alt="" src="' . get_header_image() . '" />' : '<img alt="" src="/wp-content/uploads/uploadimages/cropped-logo1.png" />';
+ $header_image = get_header_image() ? '<img alt="" src="' . get_header_image() . '" />' : '<img alt="" src="/wp-content/uploads/uploadimages/dtd-logo.jpg" />';
  printf( '<div class="site-image">%s</div>', $header_image );
 }
 
@@ -458,3 +458,99 @@ function themeprefix_remove_post_info() {
 		remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
 	}
 }
+
+function disable_floc($headers){
+	$headers['Permissions-Policy'] = 'interest-cohort=()';
+	return $headers;
+}
+add_filter('wp_headers','disable_floc');
+
+add_shortcode( 'my_permalink', 'my_permalink' );
+// The Permalink Shortcode
+function my_permalink() {
+ob_start();
+    the_permalink();
+return ob_get_clean();
+}
+
+add_filter( 'the_excerpt_rss', 'my_excerpt_rss' );
+function my_excerpt_rss( $content ) {
+	global $post;
+
+	if ( has_category( 'rss-club', $post->ID ) ) {
+		// Excerpts usually don't contain HTML. Leave out the link.
+		// $content = 'Dit bericht is alleen voor abonnees. ' . $content;
+
+		// However, you probably could get away with it, like so:
+		$content = '<p>' . $content . '</p><p>Dit is een geheim bericht voor iedereen. RSS Only. Niet strikt geheim, maar niet direct publiek zichtbaar. Alle vormen van reacties en links zijn welkom. <a href="' . get_permalink( get_page_by_path( 'rss-club' ) ) . '">Lees alles over de RSS Club.</a></p>';
+	}
+
+	return $content;
+}
+
+add_filter( 'the_content_feed', 'my_content_feed' );
+function my_content_feed( $content ) {
+	global $post;
+
+	if ( has_category( 'rss-club', $post->ID ) ) {
+		$content = $content.'
+		<aside class="notice">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" width="16" height="16" style="height: 1.2em; width: 1.2em; vertical-align: text-bottom">
+        <path fill="currentColor" d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64" />
+      </svg><br />
+      <tt>Dit is een geheim bericht voor iedereen. RSS Only. Niet strikt geheim, maar niet direct publiek zichtbaar. Alle vormen van reacties en links zijn welkom. <br />
+      <a href="' . get_permalink( get_page_by_path( 'rss-club' ) ) . '">Lees alles over de RSS Club.</a>.<br />
+      </tt><br />
+    </aside>';
+	}
+
+	return $content;
+}
+
+add_filter( 'simple_social_default_profiles', 'custom_reorder_simple_icons' );
+
+function custom_reorder_simple_icons( $icons ) {
+
+	// Set your new order here
+	$new_icon_order = array(
+		'rss'         => '',
+		'linkedin'    => '',
+		'medium'      => '',
+		'twitter'     => '',
+		'github'      => '',
+		'instagram'   => '',
+		'email'       => '',
+		'phone'       => '',
+		'youtube'     => '',
+		// 'behance'     => '',
+		// 'bloglovin'   => '',
+		// 'dribbble'    => '',
+		// 'facebook'    => '',
+		// 'flickr'      => '',
+		// 'gplus'       => '',
+		// 'periscope'   => '',
+		// 'pinterest'   => '',
+		// 'snapchat'    => '',
+		// 'stumbleupon' => '',
+		// 'tumblr'      => '',
+		// 'vimeo'       => '',
+		// 'xing'        => '',
+	);
+
+
+	foreach( $new_icon_order as $icon => $icon_info ) {
+		$new_icon_order[ $icon ] = $icons[ $icon ];
+	}
+
+	return $new_icon_order;
+}
+
+add_filter( 'simple_social_icon_html', 'custom_social_icon_html' );
+function custom_social_icon_html( $html ) {
+	return str_replace( '<a', '<a rel="me"', $html );
+}
+
+add_shortcode( 'blogroll_links', function () {
+	$out = wp_list_bookmarks('title_li=');
+	return $out;
+} );
