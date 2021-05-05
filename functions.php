@@ -344,7 +344,7 @@ add_filter( 'genesis_attr_entry-title', 'entry_title' );
 add_filter( 'genesis_attr_entry-content', 'entry_content' );
 add_filter( 'genesis_attr_comment-content', 'comment_content' );
 add_filter( 'genesis_attr_comment-author', 'comment_entry_author' );
-// add_filter( 'genesis_attr_entry-author', 'entry_author' );
+add_filter( 'genesis_attr_entry-author', 'entry_author' );
 add_filter( 'genesis_attr_entry-time', 'time_stamps' );
 add_filter( 'genesis_attr_comment-time', 'time_stamps' );
 add_filter( 'author-box', 'author_description' );
