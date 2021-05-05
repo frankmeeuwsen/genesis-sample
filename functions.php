@@ -556,3 +556,22 @@ add_shortcode( 'blogroll_links', function () {
 //     return get_avatar($post_author, '32');
 
 // });
+
+
+add_filter( 'genesis_post_info', 'cd_post_info_filter' );
+function cd_post_info_filter( $post_info ) {
+
+	// get author details
+	$entry_author = get_avatar( get_the_author_meta( 'email' ), 32, null, null, array('class' => array('u-photo'),'extra_attr'=>'style="display:none"'));
+	$author_link = get_author_posts_url( get_the_author_meta( 'ID' ) );
+
+	// build updated post_info
+	$post_info = '[post_date] by ';
+	$post_info .= sprintf( '<span class="author-avatar"><a href="%s">%s</a></span>', $author_link, $entry_author );
+	$post_info .= '[post_author_posts_link] [post_comments] [post_edit]';
+	return $post_info;
+
+}
+
+//* Display author box on single posts
+// add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
