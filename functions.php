@@ -2,7 +2,7 @@
 /**
  * Genesis Sample.
  *
- * This file adds functions to the Genesis Sample Theme.
+ * This file adds functions to the Genesis Sample Theme, added by me.
  *
  * @package Genesis FM Sample
  * @author  StudioPress
