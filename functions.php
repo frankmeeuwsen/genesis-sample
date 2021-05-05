@@ -321,18 +321,12 @@ add_action( 'genesis_header', 'custom_site_image', 5 );
  * @return string 		HTML for site logo/image.
  */
 function custom_site_image() {
- $header_image = get_header_image() ? '<img alt="" src="' . get_header_image() . '" />' : '<img alt="" src="/wp-content/uploads/uploadimages/dtd-logo.jpg" />';
- printf( '<div class="site-image">%s</div>', $header_image );
+ $header_image = get_header_image() ? '<img alt="" src="' . get_header_image() . '" />' : '<img alt="" src="/wp-content/uploads/dtd-logo.png" />';
+ printf( '<a href="/"><div class="site-image">%s</div></a>', $header_image );
 }
 
 // Remove permalink onder post kind articles zonder titel
 remove_action( 'genesis_entry_content', 'genesis_do_post_permalink', 14 );
-
-// Verander de comment tekst
-// add_filter( 'genesis_post_info', 'custom_post_info_filter' );
-function custom_post_info_filter( $post_info ) {
-	return '[post_comments zero="Geef een reactie" one="1 reactie" more="% reacties"]';
-}
 
 // Microformats toevoegen
 add_action( 'wp_head', 'microformats_header' );
@@ -350,7 +344,7 @@ add_filter( 'genesis_attr_entry-title', 'entry_title' );
 add_filter( 'genesis_attr_entry-content', 'entry_content' );
 add_filter( 'genesis_attr_comment-content', 'comment_content' );
 add_filter( 'genesis_attr_comment-author', 'comment_entry_author' );
-add_filter( 'genesis_attr_entry-author', 'entry_author' );
+// add_filter( 'genesis_attr_entry-author', 'entry_author' );
 add_filter( 'genesis_attr_entry-time', 'time_stamps' );
 add_filter( 'genesis_attr_comment-time', 'time_stamps' );
 add_filter( 'author-box', 'author_description' );
@@ -554,3 +548,11 @@ add_shortcode( 'blogroll_links', function () {
 	$out = wp_list_bookmarks('title_li=');
 	return $out;
 } );
+
+// Add Shortcode
+// add_shortcode( 'get_current_author_avatar', function () {
+//      global $post;
+//     $post_author = $post->post_author;
+//     return get_avatar($post_author, '32');
+
+// });
