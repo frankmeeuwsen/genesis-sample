@@ -1890,3 +1890,11 @@ mailpoet_form_shortcode br {
 #mailerlite-form_5 {
 	text-align: center;
 }
+
+.mention-list li:nth-child(n+2) {
+	margin-left: -16px;
+}
+
+.reposts, .likes, .mentions{
+	margin: 26px 0;
+}
