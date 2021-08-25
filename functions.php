@@ -356,6 +356,7 @@ add_filter( 'genesis_post_title_output', 'singular_entry_title_link', 10, 3 );
 
 function entry_title( $attributes ) {
 		$attributes['class'] .= ' p-entry-title p-name';
+		$attributes['id'] .= get_the_ID();
 		return $attributes;
 	}
 
@@ -573,16 +574,39 @@ function cd_post_info_filter( $post_info) {
 			$post_info .= sprintf( '<span class="permalink"><a href="%s">§</a></span> ', get_permalink() );
 		}
 	$post_info .= '[post_edit]';
-		if(current_user_can( 'edit_posts' )){
-			$post_info .= ' make private <button class="post_feedback" id="post_feedback_yes" post=' . get_the_ID() .'>Yes</button>';
+		if(current_user_can( 'edit_posts' ) && get_post_status($ID) !=='private'){
+			$post_info .= '  
+				<form action="'. esc_url( admin_url("admin-post.php") ).'" method="post">
+				<input type="hidden" name="action" value="add_foobar">
+				<input type="hidden" name="post" value="' . get_the_ID() .'">
+				<input type="submit" value="private">'.
+				wp_nonce_field( "add_foobar", "foobar_nonce" ). 
+				'</form>';
 		}
 
 	return $post_info;
 
 }
 
-function public_to_private($post_id){
-	wp_update_post( array( 'ID' => get_query_var( 'postid1' ), 'post_status' => 'private' ) );
+
+add_action( 'admin_post_add_foobar', 'public_to_private' );
+// add_action( 'admin_post_nopriv_add_foobar', 'public_to_private' );
+
+function public_to_private(){
+if ( ! isset( $_POST['foobar_nonce'] ) 
+    || ! wp_verify_nonce( $_POST['foobar_nonce'], 'add_foobar' ) 
+) {
+   print 'Sorry, your nonce did not verify.';
+   exit;
+} else {
+	// var_dump($_POST);
+	wp_update_post( array( 'ID' =>  $_POST['post'], 'post_status' => 'private' ) );
+	if ( wp_get_referer() ) {
+    wp_safe_redirect( wp_get_referer().'#'.$_POST['post']);
+} else {
+    wp_safe_redirect( get_home_url() );
+}
+	}
 }
 
 //* Display author box on single posts
@@ -617,13 +641,10 @@ function custom_query_vars( $query ) {
 
 
 
-add_action('save_post','add_open_newsletter_taxonomy',10,3);
+// add_action('save_post','add_open_newsletter_taxonomy',10,3);
  function add_open_newsletter_taxonomy($post_id, $post, $update){
 	if ( 'newsletterglue' == $post->post_type ){
 	$term = get_term_by( 'term_id', 114);
     wp_set_post_terms( $post_id, array($term->term_id), 'post_tag', true );
 	}   
  }
-
-
-
