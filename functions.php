@@ -575,3 +575,19 @@ function cd_post_info_filter( $post_info ) {
 
 //* Display author box on single posts
 // add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
+
+add_action( 'genesis_entry_content', 'custom_single_post_nav', 12 );
+function custom_single_post_nav() {
+
+	if ( ! is_singular( 'post' ) )
+		return;
+
+	echo '<div class="pagination-previous alignleft">';
+	previous_post_link('%link', '&#x000AB; %title', FALSE);
+	echo '</div>';
+
+	echo '<div class="pagination-next alignright">';
+	next_post_link('%link', '%title &#x000BB;', FALSE);
+	echo '</div>';
+
+}
