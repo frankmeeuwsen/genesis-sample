@@ -559,19 +559,71 @@ add_shortcode( 'blogroll_links', function () {
 
 
 add_filter( 'genesis_post_info', 'cd_post_info_filter' );
-function cd_post_info_filter( $post_info ) {
+function cd_post_info_filter( $post_info) {
 
 	// get author details
 	$entry_author = get_avatar( get_the_author_meta( 'email' ), 32, null, null, array('class' => array('u-photo'),'extra_attr'=>'style="display:none"'));
 	$author_link = get_author_posts_url( get_the_author_meta( 'ID' ) );
-
+	// $post_kind = get_post_kind_string();
 	// build updated post_info
-	$post_info = '[post_date] by ';
+	$post_info = '[post_date] door ';
 	$post_info .= sprintf( '<span class="author-avatar"><a href="%s">%s</a></span>', $author_link, $entry_author );
-	$post_info .= '[post_author_posts_link] [post_comments] [post_edit]';
+	$post_info .= '[post_author_posts_link] [post_comments] ';
+        if(  has_post_kind('note')){
+			$post_info .= sprintf( '<span class="permalink"><a href="%s">§</a></span> ', get_permalink() );
+		}
+	$post_info .= '[post_edit]';
+		if(current_user_can( 'edit_posts' )){
+			$post_info .= ' make private <button class="post_feedback" id="post_feedback_yes" post=' . get_the_ID() .'>Yes</button>';
+		}
+
 	return $post_info;
 
 }
 
+function public_to_private($post_id){
+	wp_update_post( array( 'ID' => get_query_var( 'postid1' ), 'post_status' => 'private' ) );
+}
+
 //* Display author box on single posts
 // add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
+
+// Speciale css voor notitie
+// add_filter('post_class', 'add_post_class');
+function add_post_class($classes) {
+    $additional = 'dtd-note';
+    foreach ($classes as $class) {
+        if( $class == 'kind-note'){
+            array_push($classes , $additional);
+            break;
+        }
+    }
+    return $classes;
+}
+
+
+
+// add_action( 'pre_get_posts', 'custom_query_vars',20);
+function custom_query_vars( $query ) {
+	if ( !is_admin() && $query->is_main_query() && is_tag('open') ) {
+		$query->set( 'post_type', array( 
+			'post',
+			'newsletterglue') );
+	  	return $query;
+	}
+	// var_dump($query);
+	// wp_reset_postdata();
+}
+
+
+
+add_action('save_post','add_open_newsletter_taxonomy',10,3);
+ function add_open_newsletter_taxonomy($post_id, $post, $update){
+	if ( 'newsletterglue' == $post->post_type ){
+	$term = get_term_by( 'term_id', 114);
+    wp_set_post_terms( $post_id, array($term->term_id), 'post_tag', true );
+	}   
+ }
+
+
+
