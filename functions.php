@@ -19,6 +19,11 @@ define('CHILD_THEME_NAME', 'Genesis Sample');
 define('CHILD_THEME_URL', 'https://www.studiopress.com/');
 define('CHILD_THEME_VERSION', '2.9.0');
 
+// IETS MET CSS DEBUG DOEN. Zie https://twitter.com/brandymedia/status/1483089289294589963
+// * {
+//     outline: 1px solid red;
+// }
+
 // Sets up the Theme.
 require_once get_stylesheet_directory() . '/lib/theme-defaults.php';
 
@@ -709,8 +714,8 @@ function dtd_filternote($title)
 	return $title;
 };
 
-remove_action('genesis_entry_content', 'genesis_do_post_content');
-add_action('genesis_entry_content', 'dtd_full_content');
+// remove_action('genesis_entry_content', 'genesis_do_post_content');
+// add_action('genesis_entry_content', 'dtd_full_content');
 
 function dtd_full_content()
 {
