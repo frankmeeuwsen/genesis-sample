@@ -30,8 +30,8 @@ function genesis_sample_add_body_class( $classes ) {
 
 remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
-remove_action('genesis_entry_content', 'genesis_do_post_content');
-add_action( 'genesis_entry_content', 'custom_entry_content' ); // Add custom loop
+// remove_action('genesis_entry_content', 'genesis_do_post_content');
+// add_action( 'genesis_entry_content', 'custom_entry_content' ); // Add custom loop
 
 function custom_entry_content() {
 	// WP_Query arguments
