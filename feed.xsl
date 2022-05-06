@@ -31,7 +31,7 @@
           <xsl:for-each select="/rss/channel/item">
             <article>
               <h3><a hreflang="en" target="_blank"><xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute><xsl:value-of select="title"/></a></h3>
-              <!-- <p><xsl:value-of select="*[name()='content:encoded']"/></p> -->
+              <!-- <p><xsl:value-of select="description"/></p> -->
               <footer>Published: <time><xsl:value-of select="pubDate" /></time></footer>
             </article>
           </xsl:for-each>

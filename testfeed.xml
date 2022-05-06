@@ -1,89 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://diggingthedigital.com/wp-content/themes/genesis-sample/feed.xsl" type="text/xsl"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	
-	xmlns:georss="http://www.georss.org/georss"
-	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-	>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="feed.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
 
-<channel>
-	<title>Digging the Digital</title>
-	<atom:link href="https://diggingthedigital.com/feed/" rel="self" type="application/rss+xml" />
-	<link>https://diggingthedigital.com</link>
-	<description>Vol Blogdrift!</description>
-	<lastBuildDate>Thu, 05 May 2022 15:19:00 +0000</lastBuildDate>
-	<language>nl</language>
-	<sy:updatePeriod>
-	hourly	</sy:updatePeriod>
-	<sy:updateFrequency>
-	1	</sy:updateFrequency>
-	
+    <channel>
+        <title>Digging the Digital</title>
+        <atom:link href="https://diggingthedigital.com/feed/" rel="self" type="application/rss+xml" />
+        <link>https://diggingthedigital.com</link>
+        <description>Vol Blogdrift!</description>
+        <lastBuildDate>Thu, 05 May 2022 15:19:00 +0000</lastBuildDate>
+        <language>nl</language>
+        <sy:updatePeriod>
+            hourly </sy:updatePeriod>
+        <sy:updateFrequency>
+            1 </sy:updateFrequency>
 
-<image>
-	<url>https://diggingthedigital.com/wp-content/uploads/cropped-dtd-logo-32x32.jpg</url>
-	<title>Digging the Digital</title>
-	<link>https://diggingthedigital.com</link>
-	<width>32</width>
-	<height>32</height>
-</image> 
-<atom:link rel="hub" href="https://bridgy-fed.superfeedr.com"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><atom:link rel="hub" href="https://pubsubhubbub.superfeedr.com/"/><site xmlns="com-wordpress:feed-additions:1">166503060</site><atom:link rel="search" type="application/opensearchdescription+xml" title="Search Digging the Digital" href="https://diggingthedigital.com/wp-json/opensearch/1.1/document" />	<item>
-						
-		<link>https://diggingthedigital.com/18457-2/</link>
-				<comments>https://diggingthedigital.com/18457-2/#comments</comments>
-				<pubDate>do, 05 mei 2022 17:04:51 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[indieweb]]></category>
-		<category><![CDATA[mastodon]]></category>
-		<category><![CDATA[moederschip]]></category>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/?p=18457</guid>
-				<description><![CDATA[Nog een extraatje gemaakt op deze vrije dag (Bevrijdingsdag is bij Kaliber altijd een vrije dag) en wel een koppeling met mijn Mastodon account. Onderaan elke pagina zie je social icons. Met wat kunst- en vliegwerk heb ik hier een Mastodon logo bijgekregen. Het extra voordeel voor anderen is dat ze nu op mijn Mastodon [&#8230;]]]></description>
-								<content:encoded><![CDATA[<p>Nog een extraatje gemaakt op deze vrije dag (Bevrijdingsdag is bij <a href="https://werkenbij.kaliber.net">Kaliber</a> <em>altijd</em> een vrije dag) en wel een koppeling met mijn Mastodon account. Onderaan elke pagina zie je social icons. Met wat kunst- en vliegwerk heb ik hier een Mastodon logo bijgekregen. Het extra voordeel voor anderen is dat ze nu op <a href="https://mastodon.social/@frankmeeuwsen">mijn Mastodon account</a> direct zien dat ik geverifieerd ben. Ofwel, op mijn account staat nu de link naar mijn blog met een vink en groen gearceerd. Dat betekent dat ik zeg wie ik ben door het te bewijzen met een link vanaf mijn site. Het is een slimme manier van verificatie die inhaakt op het <a href="https://diggingthedigital.com/maak-je-eigen-moederschip/">moederschip</a> idee. Je social accounts zijn altijd te vervalsen door anderen. Maar een domeinnaam met site die je actief propageert is lastiger na te maken. Maar als iemand écht kwaad wil, is een domeinnaam als https://diggingthedigitaI.com/ zo te maken, met hoofdletter i aan het einde in plaats van een kleine letter L. Maar goed, die is inmiddels <a href="https://diggingthedigitai.com">bezet</a> <img src="https://s.w.org/images/core/emoji/13.1.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-18458" src="https://diggingthedigital.com/wp-content/uploads/Screenshot-Frank-Meeuwsen-@frankmeeuwsen@mastodon.social-Mastodon-20220505165835@2x.png" alt="" width="2040" height="660" srcset="https://diggingthedigital.com/wp-content/uploads/Screenshot-Frank-Meeuwsen-@frankmeeuwsen@mastodon.social-Mastodon-20220505165835@2x.png 2040w, https://diggingthedigital.com/wp-content/uploads/Screenshot-Frank-Meeuwsen-@frankmeeuwsen@mastodon.social-Mastodon-20220505165835@2x-768x248.png 768w, https://diggingthedigital.com/wp-content/uploads/Screenshot-Frank-Meeuwsen-@frankmeeuwsen@mastodon.social-Mastodon-20220505165835@2x-1536x497.png 1536w" sizes="(max-width: 2040px) 100vw, 2040px" /></p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/18457-2/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18457</post-id>	</item>
-		<item>
-							<title>🔖 Bits of Freedom start nieuwsbrief</title>
-				
-		<link>https://diggingthedigital.com/bits-of-freedom-start-nieuwsbrief/</link>
-				<comments>https://diggingthedigital.com/bits-of-freedom-start-nieuwsbrief/#respond</comments>
-				<pubDate>do, 05 mei 2022 10:47:30 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
-		<category><![CDATA[nieuwsbrief]]></category>
+        <image>
+            <url>https://diggingthedigital.com/wp-content/uploads/cropped-dtd-logo-32x32.jpg</url>
+            <title>Digging the Digital</title>
+            <link>https://diggingthedigital.com</link>
+            <width>32</width>
+            <height>32</height>
+        </image>
+        <atom:link rel="hub" href="https://bridgy-fed.superfeedr.com" />
+        <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+        <atom:link rel="hub" href="https://pubsubhubbub.superfeedr.com/" />
+        <site xmlns="com-wordpress:feed-additions:1">166503060</site>
+        <atom:link rel="search" type="application/opensearchdescription+xml" title="Search Digging the Digital"
+            href="https://diggingthedigital.com/wp-json/opensearch/1.1/document" />
+        <item>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/bits-of-freedom-start-nieuwsbrief/</guid>
-				<description><![CDATA[Digitale Burgerrechten organisatie Bits of Freedom start een nieuwsbrief. Denk aan updates over wetten die platformen (gaan) reguleren, tips hoe je manipulatie op en door platformen vermijdt en duiding van platformnieuws in het grotere Big Tech-plaatje.]]></description>
-								<content:encoded><![CDATA[<section class="response u-bookmark-of h-cite">
+            <link>https://diggingthedigital.com/18457-2/</link>
+            <comments>https://diggingthedigital.com/18457-2/#comments</comments>
+            <pubDate>do, 05 mei 2022 17:04:51 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[indieweb]]>
+            </category>
+            <category>
+                <![CDATA[mastodon]]>
+            </category>
+            <category>
+                <![CDATA[moederschip]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/?p=18457</guid>
+            <description>
+                <![CDATA[Nog een extraatje gemaakt op deze vrije dag (Bevrijdingsdag is bij Kaliber altijd een vrije dag) en wel een koppeling met mijn Mastodon account. Onderaan elke pagina zie je social icons. Met wat kunst- en vliegwerk heb ik hier een Mastodon logo bijgekregen. Het extra voordeel voor anderen is dat ze nu op mijn Mastodon [&#8230;]]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<p>Nog een extraatje gemaakt op deze vrije dag (Bevrijdingsdag is bij <a href="https://werkenbij.kaliber.net">Kaliber</a> <em>altijd</em> een vrije dag) en wel een koppeling met mijn Mastodon account. Onderaan elke pagina zie je social icons. Met wat kunst- en vliegwerk heb ik hier een Mastodon logo bijgekregen. Het extra voordeel voor anderen is dat ze nu op <a href="https://mastodon.social/@frankmeeuwsen">mijn Mastodon account</a> direct zien dat ik geverifieerd ben. Ofwel, op mijn account staat nu de link naar mijn blog met een vink en groen gearceerd. Dat betekent dat ik zeg wie ik ben door het te bewijzen met een link vanaf mijn site. Het is een slimme manier van verificatie die inhaakt op het <a href="https://diggingthedigital.com/maak-je-eigen-moederschip/">moederschip</a> idee. Je social accounts zijn altijd te vervalsen door anderen. Maar een domeinnaam met site die je actief propageert is lastiger na te maken. Maar als iemand écht kwaad wil, is een domeinnaam als https://diggingthedigitaI.com/ zo te maken, met hoofdletter i aan het einde in plaats van een kleine letter L. Maar goed, die is inmiddels <a href="https://diggingthedigitai.com">bezet</a> <img src="https://s.w.org/images/core/emoji/13.1.0/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-18458" src="https://diggingthedigital.com/wp-content/uploads/Screenshot-Frank-Meeuwsen-@frankmeeuwsen@mastodon.social-Mastodon-20220505165835@2x.png" alt="" width="2040" height="660" srcset="https://diggingthedigital.com/wp-content/uploads/Screenshot-Frank-Meeuwsen-@frankmeeuwsen@mastodon.social-Mastodon-20220505165835@2x.png 2040w, https://diggingthedigital.com/wp-content/uploads/Screenshot-Frank-Meeuwsen-@frankmeeuwsen@mastodon.social-Mastodon-20220505165835@2x-768x248.png 768w, https://diggingthedigital.com/wp-content/uploads/Screenshot-Frank-Meeuwsen-@frankmeeuwsen@mastodon.social-Mastodon-20220505165835@2x-1536x497.png 1536w" sizes="(max-width: 2040px) 100vw, 2040px" /></p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/18457-2/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18457</post-id>
+        </item>
+        <item>
+            <title>🔖 Bits of Freedom start nieuwsbrief</title>
+
+            <link>https://diggingthedigital.com/bits-of-freedom-start-nieuwsbrief/</link>
+            <comments>https://diggingthedigital.com/bits-of-freedom-start-nieuwsbrief/#respond</comments>
+            <pubDate>do, 05 mei 2022 10:47:30 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+            <category>
+                <![CDATA[nieuwsbrief]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/bits-of-freedom-start-nieuwsbrief/</guid>
+            <description>
+                <![CDATA[Digitale Burgerrechten organisatie Bits of Freedom start een nieuwsbrief. Denk aan updates over wetten die platformen (gaan) reguleren, tips hoe je manipulatie op en door platformen vermijdt en duiding van platformnieuws in het grotere Big Tech-plaatje.]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-bookmark-of h-cite">
 <header>
 <a href="https://www.bitsoffreedom.nl/2022/05/05/abonneer-je-op-onze-nieuwsbrief-over-platformen/" class="p-name u-url">Abonneer je op onze nieuwsbrief over platformen</a> <em>(<span class="p-publication">Bits of Freedom</span>)</em></header>
 <blockquote class="e-summary">We hebben een nieuwe nieuwsbrief!</blockquote></section>
-<p>Digitale Burgerrechten organisatie Bits of Freedom start een nieuwsbrief. Denk aan updates over wetten die platformen (gaan) reguleren, tips hoe je manipulatie op en door platformen vermijdt en duiding van platformnieuws in het grotere Big Tech-plaatje.</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/bits-of-freedom-start-nieuwsbrief/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18456</post-id>	</item>
-		<item>
-							<title>Een bezoek aan Heroes Made in Asia</title>
-				
-		<link>https://diggingthedigital.com/een-bezoek-aan-heroes-made-in-asia/</link>
-				<comments>https://diggingthedigital.com/een-bezoek-aan-heroes-made-in-asia/#respond</comments>
-				<pubDate>do, 05 mei 2022 10:20:01 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[Algemeen]]></category>
-		<category><![CDATA[anime]]></category>
-		<category><![CDATA[beurs]]></category>
-		<category><![CDATA[cosplay]]></category>
-		<category><![CDATA[japan]]></category>
-		<category><![CDATA[pokemon]]></category>
+<p>Digitale Burgerrechten organisatie Bits of Freedom start een nieuwsbrief. Denk aan updates over wetten die platformen (gaan) reguleren, tips hoe je manipulatie op en door platformen vermijdt en duiding van platformnieuws in het grotere Big Tech-plaatje.</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/bits-of-freedom-start-nieuwsbrief/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18456</post-id>
+        </item>
+        <item>
+            <title>Een bezoek aan Heroes Made in Asia</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/?p=18436</guid>
-				<description><![CDATA[Een volle zaterdag rondlopen in de Aziatische cultuur. Van eten tot games en cosplay. ]]></description>
-								<content:encoded><![CDATA[<p>Hoe zou jij kijken als je <a href="https://www.ssbwiki.com/Terry_Bogard">Terry Bogard</a> uit de game Fatal Fury (en Super Smash Bros. Ultimate) rond ziet lopen met Ash uit Pokémon? Zomaar in het wild. Op het <a href="https://www.made-in-asia.nl/">Heroes Made in Asia</a> event afgelopen weekend is het de normaalste zaak. Het hele weekend kon je onderdompelen in de Aziatische (pop)cultuur. Van anime tot K-Pop, van martial arts tot heerlijke <a href="https://www.wikiwand.com/nl/Bent%C5%8D">bento boxes</a>. We hebben met het hele gezin wel iets met de Aziatische popcultuur, vooral de Japanse. Bij Finn zijn het de games, bij Tess de K-pop en de <a href="https://www.wikiwand.com/nl/Kawaii">Kawaii-cultuur</a>. Voor Helena en mij groeit de nieuwsgierigheid en waardering in de Japanse cultuur. Van de anime boeken voor volwassenen (zoals het prachtige <a href="https://www.wikiwand.com/en/With_the_Light">With the Light</a> wat we nu lezen) tot het <a href="https://diggingthedigital.com/een-potje-go-sinds-10-april/">spel Go</a>. Een vakantie aan dit land staat ook nog altijd hoog op onze verlanglijst. Helaas hebben we nog niet de middelen om hier serieus voor te sparen en plannen te maken. </p>
+            <link>https://diggingthedigital.com/een-bezoek-aan-heroes-made-in-asia/</link>
+            <comments>https://diggingthedigital.com/een-bezoek-aan-heroes-made-in-asia/#respond</comments>
+            <pubDate>do, 05 mei 2022 10:20:01 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[Algemeen]]>
+            </category>
+            <category>
+                <![CDATA[anime]]>
+            </category>
+            <category>
+                <![CDATA[beurs]]>
+            </category>
+            <category>
+                <![CDATA[cosplay]]>
+            </category>
+            <category>
+                <![CDATA[japan]]>
+            </category>
+            <category>
+                <![CDATA[pokemon]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/?p=18436</guid>
+            <description>
+                <![CDATA[Een volle zaterdag rondlopen in de Aziatische cultuur. Van eten tot games en cosplay. ]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<p>Hoe zou jij kijken als je <a href="https://www.ssbwiki.com/Terry_Bogard">Terry Bogard</a> uit de game Fatal Fury (en Super Smash Bros. Ultimate) rond ziet lopen met Ash uit Pokémon? Zomaar in het wild. Op het <a href="https://www.made-in-asia.nl/">Heroes Made in Asia</a> event afgelopen weekend is het de normaalste zaak. Het hele weekend kon je onderdompelen in de Aziatische (pop)cultuur. Van anime tot K-Pop, van martial arts tot heerlijke <a href="https://www.wikiwand.com/nl/Bent%C5%8D">bento boxes</a>. We hebben met het hele gezin wel iets met de Aziatische popcultuur, vooral de Japanse. Bij Finn zijn het de games, bij Tess de K-pop en de <a href="https://www.wikiwand.com/nl/Kawaii">Kawaii-cultuur</a>. Voor Helena en mij groeit de nieuwsgierigheid en waardering in de Japanse cultuur. Van de anime boeken voor volwassenen (zoals het prachtige <a href="https://www.wikiwand.com/en/With_the_Light">With the Light</a> wat we nu lezen) tot het <a href="https://diggingthedigital.com/een-potje-go-sinds-10-april/">spel Go</a>. Een vakantie aan dit land staat ook nog altijd hoog op onze verlanglijst. Helaas hebben we nog niet de middelen om hier serieus voor te sparen en plannen te maken. </p>
 
 
 
@@ -157,137 +200,215 @@
 
 
 
-<p></p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/een-bezoek-aan-heroes-made-in-asia/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18436</post-id>	</item>
-		<item>
-						
-		<link>https://diggingthedigital.com/mastodon-instances/</link>
-				<comments>https://diggingthedigital.com/mastodon-instances/#comments</comments>
-				<pubDate>wo, 04 mei 2022 08:25:44 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[indieweb]]></category>
-		<category><![CDATA[federated web]]></category>
-		<category><![CDATA[mastodon]]></category>
+<p></p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/een-bezoek-aan-heroes-made-in-asia/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18436</post-id>
+        </item>
+        <item>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/?p=18432</guid>
-				<description><![CDATA[Sinds ik weer wat actief ben op Mastodon vraag ik me toch één ding af over de verschillende instances. Ik zit nu op de meer algemene instance, Mastodon.social. Maar als er meer instances komen die mogelijk interessant voor me zijn om onderdeel van uit te maken, dan moet ik toch meerdere accounts maken. Ik kan [&#8230;]]]></description>
-								<content:encoded><![CDATA[<p>Sinds ik weer wat actief ben op Mastodon vraag ik me toch één ding af over de verschillende instances. Ik zit nu op de meer algemene instance, Mastodon.social. Maar als er meer instances komen die mogelijk interessant voor me zijn om onderdeel van uit te maken, dan moet ik toch meerdere accounts maken. Ik kan bv niet lid worden van een indieweb-instance met mijn huidige account. Ik kan wel anderen volgen op die instance, maar kan niet de lokale feed daar volgen bijvoorbeeld.</p>
+            <link>https://diggingthedigital.com/mastodon-instances/</link>
+            <comments>https://diggingthedigital.com/mastodon-instances/#comments</comments>
+            <pubDate>wo, 04 mei 2022 08:25:44 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[indieweb]]>
+            </category>
+            <category>
+                <![CDATA[federated web]]>
+            </category>
+            <category>
+                <![CDATA[mastodon]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/?p=18432</guid>
+            <description>
+                <![CDATA[Sinds ik weer wat actief ben op Mastodon vraag ik me toch één ding af over de verschillende instances. Ik zit nu op de meer algemene instance, Mastodon.social. Maar als er meer instances komen die mogelijk interessant voor me zijn om onderdeel van uit te maken, dan moet ik toch meerdere accounts maken. Ik kan [&#8230;]]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<p>Sinds ik weer wat actief ben op Mastodon vraag ik me toch één ding af over de verschillende instances. Ik zit nu op de meer algemene instance, Mastodon.social. Maar als er meer instances komen die mogelijk interessant voor me zijn om onderdeel van uit te maken, dan moet ik toch meerdere accounts maken. Ik kan bv niet lid worden van een indieweb-instance met mijn huidige account. Ik kan wel anderen volgen op die instance, maar kan niet de lokale feed daar volgen bijvoorbeeld.</p>
 <p>Deze ochtendgedachte is trouwens meteen een test om te zien of het syndiceren naar Mastodon vanaf mijn site nog altijd werkt.</p>
-<p><em><strong>Update</strong></em>: Nee dus. Geen syndicatie naar Mastodon. Ga ik nog wel eens uitzoeken&#8230;</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/mastodon-instances/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18432</post-id>	</item>
-		<item>
-						
-		<link>https://diggingthedigital.com/18431-2/</link>
-				<comments>https://diggingthedigital.com/18431-2/#respond</comments>
-				<pubDate>wo, 04 mei 2022 07:44:37 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[kinds-like]]></category>
+<p><em><strong>Update</strong></em>: Nee dus. Geen syndicatie naar Mastodon. Ga ik nog wel eens uitzoeken&#8230;</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/mastodon-instances/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18432</post-id>
+        </item>
+        <item>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/18431-2/</guid>
-				<description><![CDATA[]]></description>
-								<content:encoded><![CDATA[<section class="response u-like-of h-cite">
+            <link>https://diggingthedigital.com/18431-2/</link>
+            <comments>https://diggingthedigital.com/18431-2/#respond</comments>
+            <pubDate>wo, 04 mei 2022 07:44:37 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[kinds-like]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/18431-2/</guid>
+            <description>
+                <![CDATA[]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-like-of h-cite">
 <header>
 <a href="https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/" class="p-name u-url">Cool Things People Do With Their Blogs</a> by <a href="https://brainbaking.com/" class="h-card p-author"><img class="u-photo" src="https://brainbaking.com/img/avatar.jpg" alt="Wouter Groeneveld" width=  32 height=   32 />Wouter Groeneveld</a> <em>(<span class="p-publication">brainbaking.com</span>)</em></header>
-<blockquote class="e-summary">Small and independent blogs are always full of surprises. The more blogs I stumble upon, the more genuinely surprised I am by the things people do with their blogs. It seemed like a good idea to summarize highlights here. I hope it might inspire non-bloggers to blog and bloggers to tinker more with ...</blockquote></section>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/18431-2/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18431</post-id>	</item>
-		<item>
-							<title>🔖 103 Bits of Advice I Wish I Had Known</title>
-				
-		<link>https://diggingthedigital.com/103-bits-of-advice-i-wish-i-had-known/</link>
-				<comments>https://diggingthedigital.com/103-bits-of-advice-i-wish-i-had-known/#comments</comments>
-				<pubDate>vr, 29 apr 2022 07:07:41 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
-		<category><![CDATA[kind-bookmark]]></category>
+<blockquote class="e-summary">Small and independent blogs are always full of surprises. The more blogs I stumble upon, the more genuinely surprised I am by the things people do with their blogs. It seemed like a good idea to summarize highlights here. I hope it might inspire non-bloggers to blog and bloggers to tinker more with ...</blockquote></section>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/18431-2/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18431</post-id>
+        </item>
+        <item>
+            <title>🔖 103 Bits of Advice I Wish I Had Known</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/103-bits-of-advice-i-wish-i-had-known/</guid>
-				<description><![CDATA[Een mooie lijst van een wijze man. 103 levensadviezen van de 70-jarige Kevin Kelly.]]></description>
-								<content:encoded><![CDATA[<section class="response u-bookmark-of h-cite">
+            <link>https://diggingthedigital.com/103-bits-of-advice-i-wish-i-had-known/</link>
+            <comments>https://diggingthedigital.com/103-bits-of-advice-i-wish-i-had-known/#comments</comments>
+            <pubDate>vr, 29 apr 2022 07:07:41 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+            <category>
+                <![CDATA[kind-bookmark]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/103-bits-of-advice-i-wish-i-had-known/</guid>
+            <description>
+                <![CDATA[Een mooie lijst van een wijze man. 103 levensadviezen van de 70-jarige Kevin Kelly.]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-bookmark-of h-cite">
 <header>
 <a href="https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/" class="p-name u-url">103 Bits of Advice I Wish I Had Known</a> door <span class="h-card p-author">Kevin Kelly</span> <em>(<span class="p-publication">The Technium</span>)</em></header>
 <blockquote class="e-summary">Today is my birthday. I turn 70. I've learned a few things so far that might be helpful to others. For the past few years, I've jotted down bits of unsolicited advice each year and much to my surprise I</blockquote></section>
-<p>Een mooie lijst van een wijze man. 103 levensadviezen van de 70-jarige Kevin Kelly.</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/103-bits-of-advice-i-wish-i-had-known/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18421</post-id>	</item>
-		<item>
-							<title>🔖 Kleroteria</title>
-				
-		<link>https://diggingthedigital.com/kleroteria/</link>
-				<comments>https://diggingthedigital.com/kleroteria/#comments</comments>
-				<pubDate>vr, 29 apr 2022 06:43:58 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
-		<category><![CDATA[kind-bookmark]]></category>
+<p>Een mooie lijst van een wijze man. 103 levensadviezen van de 70-jarige Kevin Kelly.</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/103-bits-of-advice-i-wish-i-had-known/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18421</post-id>
+        </item>
+        <item>
+            <title>🔖 Kleroteria</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/kleroteria/</guid>
-				<description><![CDATA[“What would you write to ten thousand people?” Wat een origineel idee voor een mailinglijst. Dit zou je voor zoveel andere onderwerpen kunnen gebruiken. Van muziek tot inzichtjes in je leven. Alles anoniem en toch semi-openbaar. Leuk!]]></description>
-								<content:encoded><![CDATA[<section class="response u-bookmark-of h-cite">
+            <link>https://diggingthedigital.com/kleroteria/</link>
+            <comments>https://diggingthedigital.com/kleroteria/#comments</comments>
+            <pubDate>vr, 29 apr 2022 06:43:58 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+            <category>
+                <![CDATA[kind-bookmark]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/kleroteria/</guid>
+            <description>
+                <![CDATA[“What would you write to ten thousand people?” Wat een origineel idee voor een mailinglijst. Dit zou je voor zoveel andere onderwerpen kunnen gebruiken. Van muziek tot inzichtjes in je leven. Alles anoniem en toch semi-openbaar. Leuk!]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-bookmark-of h-cite">
 <header>
 <a href="https://www.kleroteria.org/" class="p-name u-url">Kleroteria</a> <em>(<span class="p-publication">kleroteria.org</span>)</em></header>
 </section>
-<p>“What would you write to ten thousand people?” Wat een origineel idee voor een mailinglijst. Dit zou je voor zoveel andere onderwerpen kunnen gebruiken. Van muziek tot inzichtjes in je leven. Alles anoniem en toch semi-openbaar. Leuk!</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/kleroteria/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18420</post-id>	</item>
-		<item>
-							<title>🔖 Why Mastodon and the fediverse are &#8220;doomed to fail&#8221;</title>
-				
-		<link>https://diggingthedigital.com/why-mastodon-and-the-fediverse-are-doomed-to-fail/</link>
-				<comments>https://diggingthedigital.com/why-mastodon-and-the-fediverse-are-doomed-to-fail/#respond</comments>
-				<pubDate>do, 28 apr 2022 07:32:44 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
-		<category><![CDATA[kind-bookmark]]></category>
+<p>“What would you write to ten thousand people?” Wat een origineel idee voor een mailinglijst. Dit zou je voor zoveel andere onderwerpen kunnen gebruiken. Van muziek tot inzichtjes in je leven. Alles anoniem en toch semi-openbaar. Leuk!</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/kleroteria/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18420</post-id>
+        </item>
+        <item>
+            <title>🔖 Why Mastodon and the fediverse are &#8220;doomed to fail&#8221;</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/why-mastodon-and-the-fediverse-are-doomed-to-fail/</guid>
-				<description><![CDATA[Dankzij de rijkste Mars-astronaut ter wereld staan Mastodon en aanverwante decentrale diensten weer in het voetlicht. Dit artikel neemt je in korte tijd mee door de argumenten waarom “ze toch niet zullen slagen”. De aanhalingstekens zijn er bewust gezet. Ze zijn al geslaagd. Of je vrienden er nu wel of niet zitten. Of het winstgevend [&#8230;]]]></description>
-								<content:encoded><![CDATA[<section class="response u-bookmark-of h-cite">
+            <link>https://diggingthedigital.com/why-mastodon-and-the-fediverse-are-doomed-to-fail/</link>
+            <comments>https://diggingthedigital.com/why-mastodon-and-the-fediverse-are-doomed-to-fail/#respond
+            </comments>
+            <pubDate>do, 28 apr 2022 07:32:44 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+            <category>
+                <![CDATA[kind-bookmark]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/why-mastodon-and-the-fediverse-are-doomed-to-fail/
+            </guid>
+            <description>
+                <![CDATA[Dankzij de rijkste Mars-astronaut ter wereld staan Mastodon en aanverwante decentrale diensten weer in het voetlicht. Dit artikel neemt je in korte tijd mee door de argumenten waarom “ze toch niet zullen slagen”. De aanhalingstekens zijn er bewust gezet. Ze zijn al geslaagd. Of je vrienden er nu wel of niet zitten. Of het winstgevend [&#8230;]]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-bookmark-of h-cite">
 <header>
 <a href="https://write.as/eloquence/why-mastodon-and-the-fediverse-are-doomed-to-fail" class="p-name u-url">Why Mastodon and the fediverse are "doomed to fail"</a> door <span class="h-card p-author">eloquence</span> <em>(<span class="p-publication">eloquence</span>)</em></header>
 <blockquote class="e-summary">Judging by the amount of media coverage Mastodon is getting, you might conclude that it's already dead. Of course, plenty of folks have p...</blockquote></section>
-<p>Dankzij de rijkste Mars-astronaut ter wereld staan Mastodon en aanverwante decentrale diensten weer in het voetlicht. Dit artikel neemt je in korte tijd mee door de argumenten waarom “ze toch niet zullen slagen”. De aanhalingstekens zijn er bewust gezet. Ze zijn al geslaagd. Of je vrienden er nu wel of niet zitten. Of het winstgevend is of niet. Het is maar net wat je definitie van succes is.</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/why-mastodon-and-the-fediverse-are-doomed-to-fail/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18419</post-id>	</item>
-		<item>
-							<title>🔖 Increasing the surface area of blogging</title>
-				
-		<link>https://diggingthedigital.com/increasing-the-surface-area-of-blogging/</link>
-				<comments>https://diggingthedigital.com/increasing-the-surface-area-of-blogging/#comments</comments>
-				<pubDate>zo, 24 apr 2022 14:25:35 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
-		<category><![CDATA[kind-bookmark]]></category>
+<p>Dankzij de rijkste Mars-astronaut ter wereld staan Mastodon en aanverwante decentrale diensten weer in het voetlicht. Dit artikel neemt je in korte tijd mee door de argumenten waarom “ze toch niet zullen slagen”. De aanhalingstekens zijn er bewust gezet. Ze zijn al geslaagd. Of je vrienden er nu wel of niet zitten. Of het winstgevend is of niet. Het is maar net wat je definitie van succes is.</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/why-mastodon-and-the-fediverse-are-doomed-to-fail/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18419</post-id>
+        </item>
+        <item>
+            <title>🔖 Increasing the surface area of blogging</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/increasing-the-surface-area-of-blogging/</guid>
-				<description><![CDATA[Tom geeft een stapel ideeën rondom bloggen en RSS in de moderne tijd. Vooral rondom RSS blijft een hoop te doen. Recent zag ik in een LinkedIn artikel hoe een marketingonderzoeker zijn Feedly geen RSS reader noemt. Maar een “trend analyse tool”. Of noem het “content curatie tijdlijn”. Het is tijd voor een “Rebrand van [&#8230;]]]></description>
-								<content:encoded><![CDATA[<section class="response u-bookmark-of h-cite">
+            <link>https://diggingthedigital.com/increasing-the-surface-area-of-blogging/</link>
+            <comments>https://diggingthedigital.com/increasing-the-surface-area-of-blogging/#comments</comments>
+            <pubDate>zo, 24 apr 2022 14:25:35 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+            <category>
+                <![CDATA[kind-bookmark]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/increasing-the-surface-area-of-blogging/</guid>
+            <description>
+                <![CDATA[Tom geeft een stapel ideeën rondom bloggen en RSS in de moderne tijd. Vooral rondom RSS blijft een hoop te doen. Recent zag ik in een LinkedIn artikel hoe een marketingonderzoeker zijn Feedly geen RSS reader noemt. Maar een “trend analyse tool”. Of noem het “content curatie tijdlijn”. Het is tijd voor een “Rebrand van [&#8230;]]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-bookmark-of h-cite">
 <header>
 <a href="http://tomcritchlow.com/2022/04/21/new-rss/" class="p-name u-url">Increasing the surface area of blogging</a> <em>(<span class="p-publication">tomcritchlow.com</span>)</em></header>
 <blockquote class="e-summary">Open feeds, OPML, books, blogs and graphs</blockquote></section>
-<p>Tom geeft een stapel ideeën rondom bloggen en RSS in de moderne tijd. Vooral rondom RSS blijft een hoop te doen. Recent zag ik in een LinkedIn artikel hoe een marketingonderzoeker zijn Feedly geen RSS reader noemt. Maar een “trend analyse tool”. Of noem het “content curatie tijdlijn”. Het is tijd voor een “Rebrand van RSS” zonder de technologie te noemen.</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/increasing-the-surface-area-of-blogging/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18418</post-id>	</item>
-		<item>
-							<title>Altijd Pokemon Go spelen</title>
-				
-		<link>https://diggingthedigital.com/altijd-pokemon-go-spelen/</link>
-				<comments>https://diggingthedigital.com/altijd-pokemon-go-spelen/#respond</comments>
-				<pubDate>zo, 24 apr 2022 08:49:18 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
+<p>Tom geeft een stapel ideeën rondom bloggen en RSS in de moderne tijd. Vooral rondom RSS blijft een hoop te doen. Recent zag ik in een LinkedIn artikel hoe een marketingonderzoeker zijn Feedly geen RSS reader noemt. Maar een “trend analyse tool”. Of noem het “content curatie tijdlijn”. Het is tijd voor een “Rebrand van RSS” zonder de technologie te noemen.</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/increasing-the-surface-area-of-blogging/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18418</post-id>
+        </item>
+        <item>
+            <title>Altijd Pokemon Go spelen</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/?p=18408</guid>
-				<description><![CDATA[Finn in zijn element. Terwijl zus Tess in het zonnetje een hockeywedstrijd speelt staan wij aan de kant. Finn heeft zijn telefoon meegenomen, de klassieke hand-me-down die de jongste altijd krijgt. Een iPhone 8 van een paar jaar geleden. Hier kan hij in zijn eigen wereld zijn, de wereld van Pokemon Go.]]></description>
-								<content:encoded><![CDATA[<p>Finn in zijn element. Terwijl zus Tess in het zonnetje een hockeywedstrijd speelt staan wij aan de kant. Finn heeft zijn telefoon meegenomen, de klassieke <em>hand-me-down</em> die de jongste altijd krijgt. Een iPhone 8 van een paar jaar geleden. Hier kan hij in zijn eigen wereld zijn, de wereld van Pokemon Go. </p>
+            <link>https://diggingthedigital.com/altijd-pokemon-go-spelen/</link>
+            <comments>https://diggingthedigital.com/altijd-pokemon-go-spelen/#respond</comments>
+            <pubDate>zo, 24 apr 2022 08:49:18 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/?p=18408</guid>
+            <description>
+                <![CDATA[Finn in zijn element. Terwijl zus Tess in het zonnetje een hockeywedstrijd speelt staan wij aan de kant. Finn heeft zijn telefoon meegenomen, de klassieke hand-me-down die de jongste altijd krijgt. Een iPhone 8 van een paar jaar geleden. Hier kan hij in zijn eigen wereld zijn, de wereld van Pokemon Go.]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<p>Finn in zijn element. Terwijl zus Tess in het zonnetje een hockeywedstrijd speelt staan wij aan de kant. Finn heeft zijn telefoon meegenomen, de klassieke <em>hand-me-down</em> die de jongste altijd krijgt. Een iPhone 8 van een paar jaar geleden. Hier kan hij in zijn eigen wereld zijn, de wereld van Pokemon Go. </p>
 
 
 
@@ -295,25 +416,40 @@
 
 
 
-<p></p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/altijd-pokemon-go-spelen/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18408</post-id>	</item>
-		<item>
-							<title>Een potje Go sinds 10 april</title>
-				
-		<link>https://diggingthedigital.com/een-potje-go-sinds-10-april/</link>
-				<comments>https://diggingthedigital.com/een-potje-go-sinds-10-april/#comments</comments>
-				<pubDate>za, 23 apr 2022 09:56:03 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
-		<category><![CDATA[atari]]></category>
-		<category><![CDATA[communities]]></category>
-		<category><![CDATA[go]]></category>
+<p></p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/altijd-pokemon-go-spelen/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18408</post-id>
+        </item>
+        <item>
+            <title>Een potje Go sinds 10 april</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/?p=18404</guid>
-				<description><![CDATA[Simpel uitgelegd, Go is een vijandig spel met als doel een groter totaal gebied van het bord met stenen te omringen dan de tegenstander. Zo&#8217;n 3 weken geleden heb ik dit spel opnieuw ontdekt. Jaren geleden keek ik er eens naar en leek het me interessant. Maar gebeurde er weinig bij me om het ook [&#8230;]]]></description>
-								<content:encoded><![CDATA[<figure class="wp-block-image size-full"><img loading="lazy" width="1414" height="628" src="https://diggingthedigital.com/wp-content/uploads/Screenshot-Wit-aan-zet-20220423090901@2x.png" alt="" class="wp-image-18405" srcset="https://diggingthedigital.com/wp-content/uploads/Screenshot-Wit-aan-zet-20220423090901@2x.png 1414w, https://diggingthedigital.com/wp-content/uploads/Screenshot-Wit-aan-zet-20220423090901@2x-768x341.png 768w" sizes="(max-width: 1414px) 100vw, 1414px" /></figure>
+            <link>https://diggingthedigital.com/een-potje-go-sinds-10-april/</link>
+            <comments>https://diggingthedigital.com/een-potje-go-sinds-10-april/#comments</comments>
+            <pubDate>za, 23 apr 2022 09:56:03 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+            <category>
+                <![CDATA[atari]]>
+            </category>
+            <category>
+                <![CDATA[communities]]>
+            </category>
+            <category>
+                <![CDATA[go]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/?p=18404</guid>
+            <description>
+                <![CDATA[Simpel uitgelegd, Go is een vijandig spel met als doel een groter totaal gebied van het bord met stenen te omringen dan de tegenstander. Zo&#8217;n 3 weken geleden heb ik dit spel opnieuw ontdekt. Jaren geleden keek ik er eens naar en leek het me interessant. Maar gebeurde er weinig bij me om het ook [&#8230;]]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<figure class="wp-block-image size-full"><img loading="lazy" width="1414" height="628" src="https://diggingthedigital.com/wp-content/uploads/Screenshot-Wit-aan-zet-20220423090901@2x.png" alt="" class="wp-image-18405" srcset="https://diggingthedigital.com/wp-content/uploads/Screenshot-Wit-aan-zet-20220423090901@2x.png 1414w, https://diggingthedigital.com/wp-content/uploads/Screenshot-Wit-aan-zet-20220423090901@2x-768x341.png 768w" sizes="(max-width: 1414px) 100vw, 1414px" /></figure>
 
 
 
@@ -369,23 +505,34 @@
 
 
 
-<p><em>&#8220;Lose your first fifty games as fast as possible&#8221;</em><br>Go proverb</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/een-potje-go-sinds-10-april/feed/</wfw:commentRss>
-		<slash:comments>24</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18404</post-id>	</item>
-		<item>
-							<title>Untappd check-in: Hoop &#038; Eendracht (3.5 ⭐)</title>
-				
-		<link>https://diggingthedigital.com/untappd-de-bebaarde-brouwer-hoop-and-eendracht/</link>
-				<comments>https://diggingthedigital.com/untappd-de-bebaarde-brouwer-hoop-and-eendracht/#respond</comments>
-				<pubDate>vr, 15 apr 2022 17:42:28 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[Untappd]]></category>
-		<category><![CDATA[review]]></category>
+<p><em>&#8220;Lose your first fifty games as fast as possible&#8221;</em><br>Go proverb</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/een-potje-go-sinds-10-april/feed/</wfw:commentRss>
+            <slash:comments>24</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18404</post-id>
+        </item>
+        <item>
+            <title>Untappd check-in: Hoop &#038; Eendracht (3.5 ⭐)</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/?p=18401</guid>
-				<description><![CDATA[Naam: Hoop &#38; Eendracht ABV: 5.5% Brouwerij: De Bebaarde Brouwer Stijl: IPA &#8211; New England / Hazy Land: Netherlands Wat ik er over zeg: Zoals ze zelf zeggen: Dit heerlijke bier is vernoemd naar de ontdekkingsreiziger Olivier van Noort, geboren te Utrecht. Olivier was de eerste Nederlander die rond de wereld zeilde. Zijn vloot, met [&#8230;]]]></description>
-								<content:encoded><![CDATA[<p><img src="https://untappd.akamaized.net/photos/2022_04_15/e9b45cde9c6085eaee47dec79a4354a6_640x640.jpg" /><br />
+            <link>https://diggingthedigital.com/untappd-de-bebaarde-brouwer-hoop-and-eendracht/</link>
+            <comments>https://diggingthedigital.com/untappd-de-bebaarde-brouwer-hoop-and-eendracht/#respond</comments>
+            <pubDate>vr, 15 apr 2022 17:42:28 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[Untappd]]>
+            </category>
+            <category>
+                <![CDATA[review]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/?p=18401</guid>
+            <description>
+                <![CDATA[Naam: Hoop &#38; Eendracht ABV: 5.5% Brouwerij: De Bebaarde Brouwer Stijl: IPA &#8211; New England / Hazy Land: Netherlands Wat ik er over zeg: Zoals ze zelf zeggen: Dit heerlijke bier is vernoemd naar de ontdekkingsreiziger Olivier van Noort, geboren te Utrecht. Olivier was de eerste Nederlander die rond de wereld zeilde. Zijn vloot, met [&#8230;]]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<p><img src="https://untappd.akamaized.net/photos/2022_04_15/e9b45cde9c6085eaee47dec79a4354a6_640x640.jpg" /><br />
 <strong>Naam</strong>: Hoop &amp; Eendracht<br />
 <strong>ABV</strong>: 5.5%<br />
 <strong>Brouwerij</strong>: De Bebaarde Brouwer<br />
@@ -397,23 +544,35 @@ Zijn vloot, met o.a. de schepen &#8216;Hoop &amp; Eendracht&#8217; vertrok vanui
 <p>HOOP &amp; EENDRACHT is een lichttroebel, fris bier met citrus aroma voorzien van vol sappig mondgevoel en is door de milde bitterheid lekker door te drinken.<br />
 De gekozen bierstijl is een knipoog naar de Utrechtse wijk Nieuw Engeland.</p>
 <p>Dit bier is samen met UTRECHT CRAFT BEER TOURS ontwikkeld en gebrouwen.</p>
-<p>Meer weten, check de <a href="https://untappd.com/b/de-bebaarde-brouwer-hoop-and-eendracht/">Untappd-pagina</a></p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/untappd-de-bebaarde-brouwer-hoop-and-eendracht/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18401</post-id>	</item>
-		<item>
-							<title>Untappd check-in: Blonde Enigma (4.25 ⭐)</title>
-				
-		<link>https://diggingthedigital.com/untappd-oproer-blonde-enigma/</link>
-				<comments>https://diggingthedigital.com/untappd-oproer-blonde-enigma/#respond</comments>
-				<pubDate>vr, 15 apr 2022 17:04:22 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[Untappd]]></category>
-		<category><![CDATA[review]]></category>
+<p>Meer weten, check de <a href="https://untappd.com/b/de-bebaarde-brouwer-hoop-and-eendracht/">Untappd-pagina</a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/untappd-de-bebaarde-brouwer-hoop-and-eendracht/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18401</post-id>
+        </item>
+        <item>
+            <title>Untappd check-in: Blonde Enigma (4.25 ⭐)</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/?p=18399</guid>
-				<description><![CDATA[Naam: Blonde Enigma ABV: 6.2% Brouwerij: Oproer Stijl: Blonde Ale Land: Netherlands Wat ik er over zeg: Zoals ze zelf zeggen: An enigmatic brew from the past has been given new life. It&#8217;s not your standard Belgian blonde, but what is it then? It&#8217;s mysterious, it&#8217;s better, it&#8217;s a blond ale. Drink it and be [&#8230;]]]></description>
-								<content:encoded><![CDATA[<p><img src="https://untappd.akamaized.net/photos/2022_04_15/0ed338808440daed666377d7e434e8b2_640x640.jpg" /><br />
+            <link>https://diggingthedigital.com/untappd-oproer-blonde-enigma/</link>
+            <comments>https://diggingthedigital.com/untappd-oproer-blonde-enigma/#respond</comments>
+            <pubDate>vr, 15 apr 2022 17:04:22 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[Untappd]]>
+            </category>
+            <category>
+                <![CDATA[review]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/?p=18399</guid>
+            <description>
+                <![CDATA[Naam: Blonde Enigma ABV: 6.2% Brouwerij: Oproer Stijl: Blonde Ale Land: Netherlands Wat ik er over zeg: Zoals ze zelf zeggen: An enigmatic brew from the past has been given new life. It&#8217;s not your standard Belgian blonde, but what is it then? It&#8217;s mysterious, it&#8217;s better, it&#8217;s a blond ale. Drink it and be [&#8230;]]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<p><img src="https://untappd.akamaized.net/photos/2022_04_15/0ed338808440daed666377d7e434e8b2_640x640.jpg" /><br />
 <strong>Naam</strong>: Blonde Enigma<br />
 <strong>ABV</strong>: 6.2%<br />
 <strong>Brouwerij</strong>: Oproer<br />
@@ -421,77 +580,116 @@ De gekozen bierstijl is een knipoog naar de Utrechtse wijk Nieuw Engeland.</p>
 <strong>Land</strong>: Netherlands<br />
 <strong>Wat ik er over zeg</strong>:<br />
 <strong>Zoals ze zelf zeggen</strong>: An enigmatic brew from the past has been given new life. It&#8217;s not your standard Belgian blonde, but what is it then? It&#8217;s mysterious, it&#8217;s better, it&#8217;s a blond ale. Drink it and be puzzled.</p>
-<p>Meer weten, check de <a href="https://untappd.com/b/oproer-blonde-enigma/">Untappd-pagina</a></p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/untappd-oproer-blonde-enigma/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18399</post-id>	</item>
-		<item>
-						
-		<link>https://diggingthedigital.com/18398-2/</link>
-				<comments>https://diggingthedigital.com/18398-2/#comments</comments>
-				<pubDate>zo, 03 apr 2022 09:03:51 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[kinds-like]]></category>
+<p>Meer weten, check de <a href="https://untappd.com/b/oproer-blonde-enigma/">Untappd-pagina</a></p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/untappd-oproer-blonde-enigma/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18399</post-id>
+        </item>
+        <item>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/18398-2/</guid>
-				<description><![CDATA[]]></description>
-								<content:encoded><![CDATA[<section class="response u-like-of h-cite">
+            <link>https://diggingthedigital.com/18398-2/</link>
+            <comments>https://diggingthedigital.com/18398-2/#comments</comments>
+            <pubDate>zo, 03 apr 2022 09:03:51 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[kinds-like]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/18398-2/</guid>
+            <description>
+                <![CDATA[]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-like-of h-cite">
 <header>
 <a href="http://tomcritchlow.com/2022/04/01/blogging-accelerator/" class="p-name u-url">Notes on a Blogging Accelerator</a> <em>(<span class="p-publication">tomcritchlow.com</span>)</em></header>
-<blockquote class="e-summary">How to get more people small-b blogging?</blockquote></section>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/18398-2/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18398</post-id>	</item>
-		<item>
-						
-		<link>https://diggingthedigital.com/18397-2/</link>
-				<comments>https://diggingthedigital.com/18397-2/#respond</comments>
-				<pubDate>zo, 03 apr 2022 08:34:42 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[kinds-like]]></category>
+<blockquote class="e-summary">How to get more people small-b blogging?</blockquote></section>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/18398-2/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18398</post-id>
+        </item>
+        <item>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/18397-2/</guid>
-				<description><![CDATA[]]></description>
-								<content:encoded><![CDATA[<section class="response u-like-of h-cite">
+            <link>https://diggingthedigital.com/18397-2/</link>
+            <comments>https://diggingthedigital.com/18397-2/#respond</comments>
+            <pubDate>zo, 03 apr 2022 08:34:42 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[kinds-like]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/18397-2/</guid>
+            <description>
+                <![CDATA[]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-like-of h-cite">
 <header>
 <a href="https://blog.jim-nielsen.com/2021/reintroducing-readlists/" class="p-name u-url">(Re)Introducing Readlists</a> <em>(<span class="p-publication">blog.jim-nielsen.com</span>)</em></header>
 <blockquote class="e-summary">I really miss @Readlists. — Me
-There have been a number of “read it later” services throughout the history of the web: Instapaper, Pocket, and Readability to name a few. These functioned as services that would take the content of a web page, strip out all the cruft (ads, navigation, comments, ...</blockquote></section>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/18397-2/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18397</post-id>	</item>
-		<item>
-							<title>🔖 Mozilla’s vision for the evolution of the Web</title>
-				
-		<link>https://diggingthedigital.com/mozillas-vision-for-the-evolution-of-the-web/</link>
-				<comments>https://diggingthedigital.com/mozillas-vision-for-the-evolution-of-the-web/#respond</comments>
-				<pubDate>zo, 03 apr 2022 08:31:09 +0200</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
-		<category><![CDATA[kind-bookmark]]></category>
+There have been a number of “read it later” services throughout the history of the web: Instapaper, Pocket, and Readability to name a few. These functioned as services that would take the content of a web page, strip out all the cruft (ads, navigation, comments, ...</blockquote></section>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/18397-2/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18397</post-id>
+        </item>
+        <item>
+            <title>🔖 Mozilla’s vision for the evolution of the Web</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/mozillas-vision-for-the-evolution-of-the-web/</guid>
-				<description><![CDATA[Een breed en open plan hoe Mozilla de toekomst van het web ziet.]]></description>
-								<content:encoded><![CDATA[<section class="response u-bookmark-of h-cite">
+            <link>https://diggingthedigital.com/mozillas-vision-for-the-evolution-of-the-web/</link>
+            <comments>https://diggingthedigital.com/mozillas-vision-for-the-evolution-of-the-web/#respond</comments>
+            <pubDate>zo, 03 apr 2022 08:31:09 +0200</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+            <category>
+                <![CDATA[kind-bookmark]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/mozillas-vision-for-the-evolution-of-the-web/</guid>
+            <description>
+                <![CDATA[Een breed en open plan hoe Mozilla de toekomst van het web ziet.]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-bookmark-of h-cite">
 <header>
 <a href="https://webvision.mozilla.org/" class="p-name u-url">Mozilla’s vision for the evolution of the Web</a> <em>(<span class="p-publication">webvision.mozilla.org</span>)</em></header>
 <blockquote class="e-summary">The Web is an enormous asset and Mozilla is committed to protecting it and making it better. Powerful economic and technological forces have combined to make the Web the way it is today. Making it better won’t be easy and we can’t do it alone.</blockquote></section>
-<p>Een breed en open plan hoe Mozilla de toekomst van het web ziet.</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/mozillas-vision-for-the-evolution-of-the-web/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18396</post-id>	</item>
-		<item>
-							<title>It&#8217;s times like these you learn to love again&#8230;</title>
-				
-		<link>https://diggingthedigital.com/its-times-like-these-you-learn-to-love-again/</link>
-				<comments>https://diggingthedigital.com/its-times-like-these-you-learn-to-love-again/#respond</comments>
-				<pubDate>za, 26 mrt 2022 08:25:40 +0100</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
+<p>Een breed en open plan hoe Mozilla de toekomst van het web ziet.</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/mozillas-vision-for-the-evolution-of-the-web/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18396</post-id>
+        </item>
+        <item>
+            <title>It&#8217;s times like these you learn to love again&#8230;</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/?p=18374</guid>
-				<description><![CDATA[It&#8217;s times like these you learn to live again It&#8217;s times like these you give and give again It&#8217;s times like these you learn to love again It&#8217;s times like these time and time again]]></description>
-								<content:encoded><![CDATA[<figure class="wp-block-image size-full"><img loading="lazy" width="1000" height="1000" src="https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo.jpeg" alt="" class="wp-image-18375" srcset="https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo.jpeg 1000w, https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo-150x150.jpeg 150w, https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo-768x768.jpeg 768w, https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo-75x75.jpeg 75w, https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo-600x600.jpeg 600w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+            <link>https://diggingthedigital.com/its-times-like-these-you-learn-to-love-again/</link>
+            <comments>https://diggingthedigital.com/its-times-like-these-you-learn-to-love-again/#respond</comments>
+            <pubDate>za, 26 mrt 2022 08:25:40 +0100</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/?p=18374</guid>
+            <description>
+                <![CDATA[It&#8217;s times like these you learn to live again It&#8217;s times like these you give and give again It&#8217;s times like these you learn to love again It&#8217;s times like these time and time again]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<figure class="wp-block-image size-full"><img loading="lazy" width="1000" height="1000" src="https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo.jpeg" alt="" class="wp-image-18375" srcset="https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo.jpeg 1000w, https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo-150x150.jpeg 150w, https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo-768x768.jpeg 768w, https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo-75x75.jpeg 75w, https://diggingthedigital.com/wp-content/uploads/FOwWmFWXMAAFTMo-600x600.jpeg 600w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 
 
 
@@ -501,68 +699,106 @@ There have been a number of “read it later” services throughout the history 
 
 <figure class="wp-block-embed is-type-rich is-provider-spotify wp-block-embed-spotify wp-embed-aspect-21-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 <iframe loading="lazy" title="Spotify Embed: Times Like These" style="border-radius: 12px" width="100%" height="80" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" src="https://open.spotify.com/embed/track/67vYdAAM3oGsEImCRfbtsF?si=3i5tX0AJT162oqB6yohiFw&#038;utm_source=oembed"></iframe>
-</div></figure>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/its-times-like-these-you-learn-to-love-again/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18374</post-id>	</item>
-		<item>
-							<title>🔖 Het pitchdeck voor NFT&#8217;s</title>
-				
-		<link>https://diggingthedigital.com/het-pitchdeck-voor-nfts/</link>
-				<comments>https://diggingthedigital.com/het-pitchdeck-voor-nfts/#respond</comments>
-				<pubDate>di, 22 mrt 2022 09:11:19 +0100</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[webtech]]></category>
-		<category><![CDATA[nft]]></category>
-		<category><![CDATA[pitch]]></category>
+</div></figure>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/its-times-like-these-you-learn-to-love-again/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18374</post-id>
+        </item>
+        <item>
+            <title>🔖 Het pitchdeck voor NFT&#8217;s</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/het-pitchdeck-voor-nfts/</guid>
-				<description><![CDATA[NFT&#8217;s blijven onverminderd in de belangstelling staan. Ik ben er zelf iets minder mee bezig, er zit maar 24 uur in een dag. Maar ik wil wel snel eens dit pitchdeck van 90 slides bekijken om misschien beter te snappen hoe het businessmodel en -cultuur er achter in elkaar zit.]]></description>
-								<content:encoded><![CDATA[<section class="response u-bookmark-of h-cite">
+            <link>https://diggingthedigital.com/het-pitchdeck-voor-nfts/</link>
+            <comments>https://diggingthedigital.com/het-pitchdeck-voor-nfts/#respond</comments>
+            <pubDate>di, 22 mrt 2022 09:11:19 +0100</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[webtech]]>
+            </category>
+            <category>
+                <![CDATA[nft]]>
+            </category>
+            <category>
+                <![CDATA[pitch]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/het-pitchdeck-voor-nfts/</guid>
+            <description>
+                <![CDATA[NFT&#8217;s blijven onverminderd in de belangstelling staan. Ik ben er zelf iets minder mee bezig, er zit maar 24 uur in een dag. Maar ik wil wel snel eens dit pitchdeck van 90 slides bekijken om misschien beter te snappen hoe het businessmodel en -cultuur er achter in elkaar zit.]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-bookmark-of h-cite">
 <header>
 <a href="https://bestpitchdeck.com/yuga-labs" class="p-name u-url">Yuga Labs Pitch Deck — Best Pitch Deck</a> <em>(<span class="p-publication">Best Pitch<img src="https://s.w.org/images/core/emoji/13.1.0/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span>)</em></header>
 <blockquote class="e-summary">The leaked Yuga Labs pitch deck, by the creators of the popular Bored Ape Yacht Club (BAYC) NFT collection. Draw inspiration 790+ pitch deck examples from winning startups to craft your perfect presentation!</blockquote></section>
-<p>NFT&#8217;s blijven onverminderd in de belangstelling staan. Ik ben er zelf iets minder mee bezig, er zit maar 24 uur in een dag. Maar ik wil wel snel eens dit pitchdeck van 90 slides bekijken om misschien beter te snappen hoe het businessmodel en -cultuur er achter in elkaar zit.</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/het-pitchdeck-voor-nfts/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18363</post-id>	</item>
-		<item>
-							<title>🔖 Publishing Obsidian.md notes with GitLab Pages</title>
-				
-		<link>https://diggingthedigital.com/publishing-obsidian-md-notes-with-gitlab-pages/</link>
-				<comments>https://diggingthedigital.com/publishing-obsidian-md-notes-with-gitlab-pages/#respond</comments>
-				<pubDate>ma, 21 mrt 2022 19:39:35 +0100</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[random]]></category>
-		<category><![CDATA[kind-bookmark]]></category>
+<p>NFT&#8217;s blijven onverminderd in de belangstelling staan. Ik ben er zelf iets minder mee bezig, er zit maar 24 uur in een dag. Maar ik wil wel snel eens dit pitchdeck van 90 slides bekijken om misschien beter te snappen hoe het businessmodel en -cultuur er achter in elkaar zit.</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/het-pitchdeck-voor-nfts/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18363</post-id>
+        </item>
+        <item>
+            <title>🔖 Publishing Obsidian.md notes with GitLab Pages</title>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/publishing-obsidian-md-notes-with-gitlab-pages/</guid>
-				<description><![CDATA[Misschien is dit de moeite om eens te proberen. Gewoon voor de lol.]]></description>
-								<content:encoded><![CDATA[<section class="response u-bookmark-of h-cite">
+            <link>https://diggingthedigital.com/publishing-obsidian-md-notes-with-gitlab-pages/</link>
+            <comments>https://diggingthedigital.com/publishing-obsidian-md-notes-with-gitlab-pages/#respond</comments>
+            <pubDate>ma, 21 mrt 2022 19:39:35 +0100</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[random]]>
+            </category>
+            <category>
+                <![CDATA[kind-bookmark]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/publishing-obsidian-md-notes-with-gitlab-pages/
+            </guid>
+            <description>
+                <![CDATA[Misschien is dit de moeite om eens te proberen. Gewoon voor de lol.]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<section class="response u-bookmark-of h-cite">
 <header>
 <a href="https://about.gitlab.com/blog/2022/03/15/publishing-obsidian-notes-with-gitlab-pages/" class="p-name u-url">Publishing Obsidian.md notes with GitLab Pages</a> <em>(<span class="p-publication">GitLab</span>)</em></header>
 <blockquote class="e-summary">How to publish your Obsidian.md documents to a GitLab Pages site</blockquote></section>
-<p>Misschien is dit de moeite om eens te proberen. Gewoon voor de lol.</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/publishing-obsidian-md-notes-with-gitlab-pages/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18362</post-id>	</item>
-		<item>
-						
-		<link>https://diggingthedigital.com/18349-2/</link>
-				<comments>https://diggingthedigital.com/18349-2/#respond</comments>
-				<pubDate>zo, 20 mrt 2022 12:06:59 +0100</pubDate>
-		<dc:creator><![CDATA[Frank Meeuwsen]]></dc:creator>
-				<category><![CDATA[micro]]></category>
+<p>Misschien is dit de moeite om eens te proberen. Gewoon voor de lol.</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/publishing-obsidian-md-notes-with-gitlab-pages/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18362</post-id>
+        </item>
+        <item>
 
-		<guid isPermaLink="false">https://diggingthedigital.com/18349-2/</guid>
-				<description><![CDATA[In navolging van de Obsidian meetup vorige week en Ton’s post over zijn lees-, bewerk-, en opslagproces, ben ik ook eens begonnen om na te gaan waar ik zoal mijn informatie vandaan haal. En hoe ik dat in Obsidian kan en wil krijgen. Ik installeer Diagrams vanuit mijn Setapp abonnement en doe een quickscan waar [&#8230;]]]></description>
-								<content:encoded><![CDATA[<p>In navolging van de Obsidian meetup vorige week en <a href="https://www.zylstra.org/blog/2022/03/reading-to-notes-process-sketch/">Ton’s post</a> over zijn lees-, bewerk-, en opslagproces, ben ik ook eens begonnen om na te gaan waar ik zoal mijn informatie vandaan haal. En hoe ik dat in Obsidian kan en wil krijgen.<br />
+            <link>https://diggingthedigital.com/18349-2/</link>
+            <comments>https://diggingthedigital.com/18349-2/#respond</comments>
+            <pubDate>zo, 20 mrt 2022 12:06:59 +0100</pubDate>
+            <dc:creator>
+                <![CDATA[Frank Meeuwsen]]>
+            </dc:creator>
+            <category>
+                <![CDATA[micro]]>
+            </category>
+
+            <guid isPermaLink="false">https://diggingthedigital.com/18349-2/</guid>
+            <description>
+                <![CDATA[In navolging van de Obsidian meetup vorige week en Ton’s post over zijn lees-, bewerk-, en opslagproces, ben ik ook eens begonnen om na te gaan waar ik zoal mijn informatie vandaan haal. En hoe ik dat in Obsidian kan en wil krijgen. Ik installeer Diagrams vanuit mijn Setapp abonnement en doe een quickscan waar [&#8230;]]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<p>In navolging van de Obsidian meetup vorige week en <a href="https://www.zylstra.org/blog/2022/03/reading-to-notes-process-sketch/">Ton’s post</a> over zijn lees-, bewerk-, en opslagproces, ben ik ook eens begonnen om na te gaan waar ik zoal mijn informatie vandaan haal. En hoe ik dat in Obsidian kan en wil krijgen.<br />
 Ik installeer Diagrams vanuit mijn <a href="https://diggingthedigital.com/setapp">Setapp abonnement</a> en doe een quickscan waar ik het afgelopen uur zoal notities, annotaties, bookmarks, later-lezen-URLs vandaan haal. Elke bron is een blokje. Pijlen geven de relatie en stroomrichting aan.</p>
 <p><img src="https://diggingthedigital.com/wp-content/uploads/Screenshot-informatieflow-20220320120241.png" />Ik krijg het al benauwd bij de breedte aan input waar alles vandaan komt. Van Inoreader tot losse URL’s. Van een brief van de gemeente tot een quote in een boek. Het is veel en misschien moet ik maar eens kleiner beginnen. Alleen boeken die ik lees en de highlights die ik er uit haal.<br />
 En in het stroomschema ben ik pas op het punt dat het in Obsidian komt. Maar dan zou ik er nog iets mee moeten doen. Lezen, verwerken, samenvoegen, herschrijven, linken.</p>
-<p>Ik zou een rustige zondag hebben maar volgens mij heb ik me weer werk op de hals gehaald…</p>]]></content:encoded>
-							<wfw:commentRss>https://diggingthedigital.com/18349-2/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-						<post-id xmlns="com-wordpress:feed-additions:1">18349</post-id>	</item>
-	</channel>
+<p>Ik zou een rustige zondag hebben maar volgens mij heb ik me weer werk op de hals gehaald…</p>]]>
+            </content:encoded>
+            <wfw:commentRss>https://diggingthedigital.com/18349-2/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <post-id xmlns="com-wordpress:feed-additions:1">18349</post-id>
+        </item>
+    </channel>
 </rss>
