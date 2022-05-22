@@ -1,5 +1,6 @@
 {
     "require": {
-        "ueberdosis/pandoc": "^0.7.0"
+        "ueberdosis/pandoc": "^0.7.0",
+        "netcarver/textile": "^3.7"
     }
 }

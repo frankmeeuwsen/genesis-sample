@@ -20,6 +20,10 @@ class ComposerStaticInit67d08fedabbe76ddd3be66da9fdfcfc1
         array (
             'Pandoc\\' => 7,
         ),
+        'N' => 
+        array (
+            'Netcarver\\Textile\\' => 18,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -34,6 +38,10 @@ class ComposerStaticInit67d08fedabbe76ddd3be66da9fdfcfc1
         'Pandoc\\' => 
         array (
             0 => __DIR__ . '/..' . '/ueberdosis/pandoc/src',
+        ),
+        'Netcarver\\Textile\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/netcarver/textile/src/Netcarver/Textile',
         ),
     );
 
