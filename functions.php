@@ -17,7 +17,7 @@ require_once get_template_directory() . '/lib/init.php';
 // Defines the child theme (do not remove).
 define('CHILD_THEME_NAME', 'Genesis Sample');
 define('CHILD_THEME_URL', 'https://www.studiopress.com/');
-define('CHILD_THEME_VERSION', '2.9.1');
+define('CHILD_THEME_VERSION', '2.9.0');
 
 // IETS MET CSS DEBUG DOEN. Zie https://twitter.com/brandymedia/status/1483089289294589963
 // * {
